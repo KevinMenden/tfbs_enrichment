@@ -194,9 +194,9 @@ if __name__ == "__main__":
     tss_regions = set_alphabet_to_motif_alphabet(tss_regions, tf_motifs[0])
 
     # TODO Delete this after debugging
-    tf_motifs = tf_motifs[0:5]
-    tss_regions = tss_regions[0:50]
-    tss_coords = tss_coords[0:50]
+    #tf_motifs = tf_motifs[0:5]
+    #tss_regions = tss_regions[0:50]
+    #tss_coords = tss_coords[0:50]
 
     print("Searching for binding sites")
     tf_dict = find_binding_sites(tf_motifs, tss_regions, tss_coords, log_odds_score, analysis_dir)
